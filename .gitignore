@@ -1,0 +1,29 @@
+# Build output
+build/
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.out
+a.out
+
+# Debug / analysis artifacts
+core
+core.*
+vgcore.*
+*.dSYM/
+*.gcda
+*.gcno
+*.gcov
+
+# Generated
+compile_commands.json
+.cache/
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
